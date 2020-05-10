@@ -1,0 +1,18 @@
+To run and use this web application please find below instructions on how to (This folder was made into a .zip as the file size was too large for github)
+
+First you must install XAMPP which is the local service used.
+Link: https://www.apachefriends.org/download.html
+
+You can use any text editor of your chosing.
+
+Once this is downloaded please find in the CyberHub root folder the SQL file (cyber.sql) which contains the data you will import into phpMyAdmin.
+
+Once XAMPP is installed, you need to open your browser and in the URL enter "localhost/phpmyadmin" this will bring you to phpmyadmin
+
+From here you must find on the top center ribbon the link IMPORT, this will bring you to the import page where you will import the SQL file in the root folder.
+
+Before running the web application you must make sure it is saved in the htdocs folder. "C:\xampp\htdocs"
+
+Once the SQL file is imported to phpmyadmin and the CyberHub folder is located in htdocs you can access the web application through the URL "localhost/CyberHub/register.php"
+
+To access the web application you must create an account.
